@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MMF/MMF2030H%20Machine%20Learning%20for%20Finance/credit_default_prediction_kaggle/mlruns/267551541909890607/bcfe4a72354943c6a0604cc0dbb694e7/artifacts
+end_time: 1703240605085
+entry_point_name: ''
+experiment_id: '267551541909890607'
+lifecycle_stage: active
+run_id: bcfe4a72354943c6a0604cc0dbb694e7
+run_name: Ridge Classifier
+run_uuid: bcfe4a72354943c6a0604cc0dbb694e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703240600938
+status: 3
+tags: []
+user_id: kevin

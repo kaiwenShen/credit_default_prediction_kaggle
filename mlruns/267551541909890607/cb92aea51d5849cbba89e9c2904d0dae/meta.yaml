@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MMF/MMF2030H%20Machine%20Learning%20for%20Finance/credit_default_prediction_kaggle/mlruns/267551541909890607/cb92aea51d5849cbba89e9c2904d0dae/artifacts
+end_time: 1703240686534
+entry_point_name: ''
+experiment_id: '267551541909890607'
+lifecycle_stage: active
+run_id: cb92aea51d5849cbba89e9c2904d0dae
+run_name: Decision Tree Classifier
+run_uuid: cb92aea51d5849cbba89e9c2904d0dae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703240686378
+status: 3
+tags: []
+user_id: kevin

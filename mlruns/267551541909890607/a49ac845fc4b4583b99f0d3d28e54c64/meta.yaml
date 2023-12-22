@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MMF/MMF2030H%20Machine%20Learning%20for%20Finance/credit_default_prediction_kaggle/mlruns/267551541909890607/a49ac845fc4b4583b99f0d3d28e54c64/artifacts
+end_time: 1703240687275
+entry_point_name: ''
+experiment_id: '267551541909890607'
+lifecycle_stage: active
+run_id: a49ac845fc4b4583b99f0d3d28e54c64
+run_name: Quadratic Discriminant Analysis
+run_uuid: a49ac845fc4b4583b99f0d3d28e54c64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703240687135
+status: 3
+tags: []
+user_id: kevin

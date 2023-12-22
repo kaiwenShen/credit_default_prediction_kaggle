@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MMF/MMF2030H%20Machine%20Learning%20for%20Finance/credit_default_prediction_kaggle/mlruns/267551541909890607/b1cc47e29d0a4eedac7a82600f9d65b6/artifacts
+end_time: 1703240685479
+entry_point_name: ''
+experiment_id: '267551541909890607'
+lifecycle_stage: active
+run_id: b1cc47e29d0a4eedac7a82600f9d65b6
+run_name: Logistic Regression
+run_uuid: b1cc47e29d0a4eedac7a82600f9d65b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703240685323
+status: 3
+tags: []
+user_id: kevin

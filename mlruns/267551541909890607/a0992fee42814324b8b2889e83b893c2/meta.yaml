@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MMF/MMF2030H%20Machine%20Learning%20for%20Finance/credit_default_prediction_kaggle/mlruns/267551541909890607/a0992fee42814324b8b2889e83b893c2/artifacts
+end_time: 1703240593302
+entry_point_name: ''
+experiment_id: '267551541909890607'
+lifecycle_stage: active
+run_id: a0992fee42814324b8b2889e83b893c2
+run_name: CatBoost Classifier
+run_uuid: a0992fee42814324b8b2889e83b893c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703240588726
+status: 3
+tags: []
+user_id: kevin
