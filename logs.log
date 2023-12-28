@@ -2409,3 +2409,18 @@ TypeError: __init__() missing 1 required positional argument: 'dtype'
 2023-12-22 10:14:53,424:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
   warnings.warn(f"Device used : {self.device}")
 
+2023-12-22 10:26:36,377:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+
+2023-12-22 10:26:57,362:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+
+2023-12-22 10:38:26,447:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+
+2023-12-22 10:38:46,083:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+
+2023-12-22 10:49:44,347:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+
