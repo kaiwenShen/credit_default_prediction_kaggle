@@ -2424,3 +2424,310 @@ TypeError: __init__() missing 1 required positional argument: 'dtype'
 2023-12-22 10:49:44,347:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
   warnings.warn(wrn_msg)
 
+2024-01-03 21:20:01,732:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-03 21:20:01,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-03 21:20:01,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-03 21:20:01,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-03 21:20:04,076:INFO:PyCaret ClassificationExperiment
+2024-01-03 21:20:04,076:INFO:Logging name: home_credit_engineering
+2024-01-03 21:20:04,076:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-01-03 21:20:04,076:INFO:version 3.2.0
+2024-01-03 21:20:04,076:INFO:Initializing setup()
+2024-01-03 21:20:04,076:INFO:self.USI: 901c
+2024-01-03 21:20:04,076:INFO:self._variable_keys: {'target_param', 'fold_groups_param', 'USI', 'fix_imbalance', 'log_plots_param', 'fold_generator', 'data', 'logging_param', 'idx', 'pipeline', 'seed', 'X_train', '_available_plots', 'n_jobs_param', 'fold_shuffle_param', 'memory', 'is_multiclass', 'html_param', '_ml_usecase', 'exp_name_log', 'y', 'X', 'y_test', 'gpu_param', 'y_train', 'exp_id', 'gpu_n_jobs_param', 'X_test'}
+2024-01-03 21:20:04,076:INFO:Checking environment
+2024-01-03 21:20:04,077:INFO:python_version: 3.8.17
+2024-01-03 21:20:04,077:INFO:python_build: ('default', 'Jun 16 2023 07:01:59')
+2024-01-03 21:20:04,077:INFO:machine: AMD64
+2024-01-03 21:20:04,077:INFO:platform: Windows-10-10.0.19045-SP0
+2024-01-03 21:20:04,081:INFO:Memory: svmem(total=16869195776, available=4197859328, percent=75.1, used=12671336448, free=4197859328)
+2024-01-03 21:20:04,082:INFO:Physical Core: 6
+2024-01-03 21:20:04,082:INFO:Logical Core: 12
+2024-01-03 21:20:04,082:INFO:Checking libraries
+2024-01-03 21:20:04,082:INFO:System:
+2024-01-03 21:20:04,082:INFO:    python: 3.8.17 | packaged by conda-forge | (default, Jun 16 2023, 07:01:59) [MSC v.1929 64 bit (AMD64)]
+2024-01-03 21:20:04,082:INFO:executable: D:\conda\envs\MMF1914_IT\python.exe
+2024-01-03 21:20:04,082:INFO:   machine: Windows-10-10.0.19045-SP0
+2024-01-03 21:20:04,082:INFO:PyCaret required dependencies:
+2024-01-03 21:20:04,084:INFO:                 pip: 23.2.1
+2024-01-03 21:20:04,085:INFO:          setuptools: 68.1.2
+2024-01-03 21:20:04,085:INFO:             pycaret: 3.2.0
+2024-01-03 21:20:04,085:INFO:             IPython: 8.12.2
+2024-01-03 21:20:04,085:INFO:          ipywidgets: 8.1.0
+2024-01-03 21:20:04,085:INFO:                tqdm: 4.66.1
+2024-01-03 21:20:04,085:INFO:               numpy: 1.24.3
+2024-01-03 21:20:04,085:INFO:              pandas: 2.0.3
+2024-01-03 21:20:04,085:INFO:              jinja2: 3.1.2
+2024-01-03 21:20:04,085:INFO:               scipy: 1.10.1
+2024-01-03 21:20:04,085:INFO:              joblib: 1.3.2
+2024-01-03 21:20:04,085:INFO:             sklearn: 1.2.2
+2024-01-03 21:20:04,085:INFO:                pyod: 1.1.2
+2024-01-03 21:20:04,085:INFO:            imblearn: 0.11.0
+2024-01-03 21:20:04,085:INFO:   category_encoders: 2.6.3
+2024-01-03 21:20:04,086:INFO:            lightgbm: 4.1.0
+2024-01-03 21:20:04,086:INFO:               numba: 0.58.1
+2024-01-03 21:20:04,086:INFO:            requests: 2.31.0
+2024-01-03 21:20:04,086:INFO:          matplotlib: 3.7.2
+2024-01-03 21:20:04,086:INFO:          scikitplot: 0.3.7
+2024-01-03 21:20:04,086:INFO:         yellowbrick: 1.5
+2024-01-03 21:20:04,086:INFO:              plotly: 5.16.1
+2024-01-03 21:20:04,086:INFO:    plotly-resampler: Not installed
+2024-01-03 21:20:04,086:INFO:             kaleido: 0.2.1
+2024-01-03 21:20:04,086:INFO:           schemdraw: 0.15
+2024-01-03 21:20:04,086:INFO:         statsmodels: 0.14.0
+2024-01-03 21:20:04,086:INFO:              sktime: 0.21.1
+2024-01-03 21:20:04,086:INFO:               tbats: 1.1.3
+2024-01-03 21:20:04,086:INFO:            pmdarima: 2.0.4
+2024-01-03 21:20:04,086:INFO:              psutil: 5.9.5
+2024-01-03 21:20:04,086:INFO:          markupsafe: 2.1.3
+2024-01-03 21:20:04,086:INFO:             pickle5: Not installed
+2024-01-03 21:20:04,086:INFO:         cloudpickle: 3.0.0
+2024-01-03 21:20:04,086:INFO:         deprecation: 2.1.0
+2024-01-03 21:20:04,086:INFO:              xxhash: 3.4.1
+2024-01-03 21:20:04,086:INFO:           wurlitzer: Not installed
+2024-01-03 21:20:04,087:INFO:PyCaret optional dependencies:
+2024-01-03 21:20:04,219:INFO:                shap: Not installed
+2024-01-03 21:20:04,219:INFO:           interpret: Not installed
+2024-01-03 21:20:04,219:INFO:                umap: Not installed
+2024-01-03 21:20:04,219:INFO:     ydata_profiling: Not installed
+2024-01-03 21:20:04,219:INFO:  explainerdashboard: Not installed
+2024-01-03 21:20:04,219:INFO:             autoviz: Not installed
+2024-01-03 21:20:04,219:INFO:           fairlearn: Not installed
+2024-01-03 21:20:04,219:INFO:          deepchecks: Not installed
+2024-01-03 21:20:04,219:INFO:             xgboost: 2.0.3
+2024-01-03 21:20:04,219:INFO:            catboost: 1.2.2
+2024-01-03 21:20:04,219:INFO:              kmodes: Not installed
+2024-01-03 21:20:04,219:INFO:             mlxtend: Not installed
+2024-01-03 21:20:04,219:INFO:       statsforecast: Not installed
+2024-01-03 21:20:04,219:INFO:        tune_sklearn: Not installed
+2024-01-03 21:20:04,220:INFO:                 ray: Not installed
+2024-01-03 21:20:04,220:INFO:            hyperopt: Not installed
+2024-01-03 21:20:04,220:INFO:              optuna: 3.3.0
+2024-01-03 21:20:04,220:INFO:               skopt: Not installed
+2024-01-03 21:20:04,220:INFO:              mlflow: 2.9.2
+2024-01-03 21:20:04,220:INFO:              gradio: Not installed
+2024-01-03 21:20:04,220:INFO:             fastapi: Not installed
+2024-01-03 21:20:04,220:INFO:             uvicorn: Not installed
+2024-01-03 21:20:04,220:INFO:              m2cgen: Not installed
+2024-01-03 21:20:04,220:INFO:           evidently: Not installed
+2024-01-03 21:20:04,220:INFO:               fugue: Not installed
+2024-01-03 21:20:04,220:INFO:           streamlit: Not installed
+2024-01-03 21:20:04,220:INFO:             prophet: Not installed
+2024-01-03 21:20:04,220:INFO:None
+2024-01-03 21:20:04,220:INFO:Set up data.
+2024-01-03 21:20:13,441:INFO:Set up folding strategy.
+2024-01-03 21:20:13,446:INFO:Set up train/test split.
+2024-01-03 21:20:16,551:INFO:Set up index.
+2024-01-03 21:20:16,833:INFO:Assigning column types.
+2024-01-03 21:20:19,190:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-01-03 21:20:19,244:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-01-03 21:20:19,257:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-03 21:20:19,306:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:19,310:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,041:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-01-03 21:20:26,042:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-03 21:20:26,070:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:26,072:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,073:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-01-03 21:20:26,119:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-03 21:20:26,147:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:26,150:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,196:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-03 21:20:26,225:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:26,228:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,228:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2024-01-03 21:20:26,302:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:26,305:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,382:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:26,385:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:26,402:INFO:Preparing preprocessing pipeline...
+2024-01-03 21:20:26,586:INFO:Set up simple imputation.
+2024-01-03 21:20:33,465:INFO:Finished creating preprocessing pipeline.
+2024-01-03 21:20:33,477:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\kevin\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['APP_NAME_CONTRACT_TYPE',
+                                             'APP_CODE_GENDER_F',
+                                             'APP_CODE_GENDER_M',
+                                             'APP_CODE_GENDER_XNA',
+                                             'APP_FLAG_OWN_CAR',
+                                             'APP_FLAG_OWN_REALTY',
+                                             'APP_NAME_TYPE_SUITE_Children',
+                                             'APP_NAME_TYPE_SUITE_Family',
+                                             'APP_NAME_TYPE_...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False)
+2024-01-03 21:20:33,478:INFO:Creating final display dataframe.
+2024-01-03 21:20:45,852:INFO:Setup _display_container:                     Description                    Value
+0                    Session id                      123
+1                        Target                   TARGET
+2                   Target type                   Binary
+3           Original data shape            (246008, 740)
+4        Transformed data shape            (246008, 740)
+5   Transformed train set shape            (172205, 740)
+6    Transformed test set shape             (73803, 740)
+7              Numeric features                      739
+8                    Preprocess                     True
+9               Imputation type                   simple
+10           Numeric imputation                     mean
+11       Categorical imputation                     mode
+12               Fold Generator          StratifiedKFold
+13                  Fold Number                       10
+14                     CPU Jobs                       -1
+15                      Use GPU                    False
+16               Log Experiment             MlflowLogger
+17              Experiment Name  home_credit_engineering
+18                          USI                     901c
+2024-01-03 21:20:46,032:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:46,036:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:46,131:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-01-03 21:20:46,134:INFO:Soft dependency imported: catboost: 1.2.2
+2024-01-03 21:20:46,139:INFO:Logging experiment in loggers
+2024-01-03 21:20:46,598:INFO:SubProcess save_model() called ==================================
+2024-01-03 21:20:46,622:INFO:Initializing save_model()
+2024-01-03 21:20:46,622:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\kevin\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['APP_NAME_CONTRACT_TYPE',
+                                             'APP_CODE_GENDER_F',
+                                             'APP_CODE_GENDER_M',
+                                             'APP_CODE_GENDER_XNA',
+                                             'APP_FLAG_OWN_CAR',
+                                             'APP_FLAG_OWN_REALTY',
+                                             'APP_NAME_TYPE_SUITE_Children',
+                                             'APP_NAME_TYPE_SUITE_Family',
+                                             'APP_NAME_TYPE_...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False), model_name=C:\Users\kevin\AppData\Local\Temp\tmp_7_s7y1u\Transformation Pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\kevin\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['APP_NAME_CONTRACT_TYPE',
+                                             'APP_CODE_GENDER_F',
+                                             'APP_CODE_GENDER_M',
+                                             'APP_CODE_GENDER_XNA',
+                                             'APP_FLAG_OWN_CAR',
+                                             'APP_FLAG_OWN_REALTY',
+                                             'APP_NAME_TYPE_SUITE_Children',
+                                             'APP_NAME_TYPE_SUITE_Family',
+                                             'APP_NAME_TYPE_...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2024-01-03 21:20:46,622:INFO:Adding model into prep_pipe
+2024-01-03 21:20:46,622:WARNING:Only Model saved as it was a pipeline.
+2024-01-03 21:20:46,637:INFO:C:\Users\kevin\AppData\Local\Temp\tmp_7_s7y1u\Transformation Pipeline.pkl saved in current working directory
+2024-01-03 21:20:46,648:INFO:Pipeline(memory=FastMemory(location=C:\Users\kevin\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['APP_NAME_CONTRACT_TYPE',
+                                             'APP_CODE_GENDER_F',
+                                             'APP_CODE_GENDER_M',
+                                             'APP_CODE_GENDER_XNA',
+                                             'APP_FLAG_OWN_CAR',
+                                             'APP_FLAG_OWN_REALTY',
+                                             'APP_NAME_TYPE_SUITE_Children',
+                                             'APP_NAME_TYPE_SUITE_Family',
+                                             'APP_NAME_TYPE_...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False)
+2024-01-03 21:20:46,648:INFO:save_model() successfully completed......................................
+2024-01-03 21:20:47,744:INFO:SubProcess save_model() end ==================================
+2024-01-03 21:20:47,768:INFO:setup() successfully completed in 42.07s...............
+2024-01-03 21:21:00,184:INFO:Initializing compare_models()
+2024-01-03 21:21:00,184:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A93642B820>, include=None, fold=None, round=4, cross_validation=True, sort=AUC, n_select=5, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x000001A93642B820>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'AUC', 'n_select': 5, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2024-01-03 21:21:00,184:INFO:Checking exceptions
+2024-01-03 21:21:01,157:INFO:Preparing display monitor
+2024-01-03 21:21:01,185:INFO:Initializing Logistic Regression
+2024-01-03 21:21:01,185:INFO:Total runtime is 0.0 minutes
+2024-01-03 21:21:01,189:INFO:SubProcess create_model() called ==================================
+2024-01-03 21:21:01,190:INFO:Initializing create_model()
+2024-01-03 21:21:01,190:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A93642B820>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001A8664259A0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-01-03 21:21:01,190:INFO:Checking exceptions
+2024-01-03 21:21:01,190:INFO:Importing libraries
+2024-01-03 21:21:01,190:INFO:Copying training dataset
+2024-01-03 21:21:03,063:INFO:Defining folds
+2024-01-03 21:21:03,063:INFO:Declaring metric variables
+2024-01-03 21:21:03,068:INFO:Importing untrained model
+2024-01-03 21:21:03,073:INFO:Logistic Regression Imported successfully
+2024-01-03 21:21:03,081:INFO:Starting cross validation
+2024-01-03 21:21:03,084:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-01-03 22:20:57,290:WARNING:C:\Users\kevin\AppData\Local\Temp\ipykernel_4740\1574911502.py:4: RuntimeWarning: invalid value encountered in scalar divide
+  return [((pred>th).astype(int)*profit).sum()/((pred>th).astype(int)*loan_amount).sum() for th in thresholds]
+
+2024-01-03 22:23:42,383:WARNING:C:\Users\kevin\AppData\Local\Temp\ipykernel_4740\1574911502.py:4: RuntimeWarning: invalid value encountered in scalar divide
+  return [((pred>th).astype(int)*profit).sum()/((pred>th).astype(int)*loan_amount).sum() for th in thresholds]
+
+2024-01-03 22:25:20,831:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+
+2024-01-03 22:36:24,673:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+
+2024-01-03 22:36:47,264:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+
+2024-01-03 22:49:20,530:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+
+2024-01-03 22:49:46,356:WARNING:D:\conda\envs\MMF1914_IT\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+
